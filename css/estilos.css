@@ -20,6 +20,7 @@ header {
 }
 
 body {
+	margin: auto;
 	font-size: 1.5vw;
 }
 
@@ -92,7 +93,7 @@ h2 {
 .hv-cont {
 	position: relative;
 	text-align: center;
-	margin: 0 0 6em 0;
+	margin-bottom: 2em;
 }
 
 .foto {
@@ -113,13 +114,13 @@ h3 {
 .rs {
 	background: #555555;
 	width: 22px;
-	margin: 0em 3em;
 	position: relative;
 	text-align: center
 }
 
 footer {
-	position: fixed;
+	position: relative;
+	display: block;
 	width: 100%;
 	bottom: 0;
 	background: #555555;
@@ -129,3 +130,35 @@ footer {
 .rsfb {
 	background: #555555;
 }
+
+.f {
+	display: inline-block;
+	background: #555555;
+}
+
+table { 
+	font-size: 24px;
+	border-collapse: collapse;
+	margin: 2em auto;
+}
+
+caption {
+    height: 30pt;
+	margin-bottom: 5em;
+    font-weight: bold;
+    color: #fff;
+	font-size: 20px;
+}
+th {
+    text-align: center;
+    color: #4d4d4d;
+    background: #13C8C0;
+}
+
+td {
+    text-align: justify;
+    color: #505050;
+    /*background: #f5f5f5;*/
+    vertical-align: middle;
+}
+
