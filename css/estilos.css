@@ -1,3 +1,131 @@
 @charset "utf-8";
 /* CSS Document */
 
+html,
+html * {
+	font-family: "antic-didone";
+	color: white;
+	background: #151515;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	position: relative;
+	padding: 1.5em;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+body {
+	font-size: 1.5vw;
+}
+
+a, a:visited {
+	color: inherit;
+}
+
+.logo-principal {
+	display: block;
+	border: solid;
+	border-color: lightgrey;
+	opacity: 0.85;
+}
+
+.menu {
+	position: relative;
+	top: 0;
+	height: 15px;
+	left: 0;
+	display: block;
+	width: 100%;
+	opacity: .95;
+	background: none;
+	
+}
+
+.menu ul {
+	list-style-type: none;
+	margin: 5px;
+	text-align: center;
+	
+}
+
+.menu ul li {
+	display: inline-block;
+	margin-bottom: 0;
+	margin-left: 30px;
+}
+
+.menu ul li a{
+	border-bottom: 3px solid;
+	border-color: #303030;
+	color: aliceblue;
+	text-decoration: none;
+	padding-bottom: .1em;
+	text-transform: uppercase;
+	letter-spacing: .30em;
+	-webkit-transition: color .5s;
+	transition: color.5s;
+}
+
+.menu ul li a:hover {
+	background: #2c2c2c;
+	outline: none;
+	border-bottom: 1px solid;
+}
+
+h2 {
+	margin: 1.5em;
+	text-transform: uppercase;
+	font-family: "antic-didone";
+	font-size: 3.5vw;
+	text-align: center;
+}
+
+.hv {
+	position: relative;
+	height: 40vw;	
+}
+.hv-cont {
+	position: relative;
+	text-align: center;
+	margin: 0 0 6em 0;
+}
+
+.foto {
+	position: relative;
+	width: 125px;
+	border: 5px solid;
+	border-color: slategrey;
+}
+h3 {
+	font-family: "antic-didone";
+	text-transform: uppercase;
+	position: relative;
+	margin: 1em;
+	
+	
+}
+
+.rs {
+	background: #555555;
+	width: 22px;
+	margin: 0em 3em;
+	position: relative;
+	text-align: center
+}
+
+footer {
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	background: #555555;
+	
+}
+
+.rsfb {
+	background: #555555;
+}
